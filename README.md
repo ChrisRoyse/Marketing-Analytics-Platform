@@ -719,3 +719,14 @@ def update_anomaly_detection(customer_data):
 - **Plotly** for interactive charts
 - **OpenAI** for advanced NLP capabilities
 
+![MArketing Analytics Platform](screenshot5.png)
+
+![MArketing Analytics Platform](screenshot6.png)
+
+![MArketing Analytics Platform](screenshot7.png)
+
+![MArketing Analytics Platform](screenshot8.png)
+
+![MArketing Analytics Platform](screenshot9.png)
+
+![MArketing Analytics Platform](screenshot10.png)
