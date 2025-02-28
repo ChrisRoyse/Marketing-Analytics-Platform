@@ -23,49 +23,11 @@ Built with:
 
 ## 📋 Table of Contents
 
-- [Installation](#-installation)
-- [Usage](#-usage)
 - [Architecture](#️-architecture)
 - [Key Components](#-key-components)
 - [Code Examples](#-code-examples)
 - [Configuration](#️-configuration)
 - [Data Model](#-data-model)
-
----
-
-## 🔧 Installation
-
-### Prerequisites
-
-- **Python 3.10+**
-- **Neo4j 5.x**
-- **OpenAI API key** (for advanced NLP features)
-
----
-
-## 🚀 Usage
-
-1. **Generate Test Data**
-   ```bash
-   python generate_test_customers.py
-   ```
-
-2. **Run the Enhanced Personalization System**
-   ```bash
-   python run_phase5.py
-   ```
-
-3. **Launch the Customer Journey Visualization Dashboard**
-   ```bash
-   python demo_journey_visualization.py
-   ```
-   - Available at: `http://localhost:8051/`
-
-4. **Launch the Enhanced Analytics Dashboard**
-   ```bash
-   python enhanced_dashboard.py
-   ```
-   - Available at: `http://localhost:8050/`
 
 ---
 
