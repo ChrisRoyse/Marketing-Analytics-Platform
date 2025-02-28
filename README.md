@@ -1,5 +1,7 @@
 # Marketing Analytics Platform
 
+![MArketing Analytics Platform](screenshot.png)
+
 A comprehensive marketing analytics platform leveraging **graph database technology**, **machine learning**, and **natural language processing** to deliver deep insights into customer journeys, personalized recommendations, and predictive analytics.
 
 Built with:
@@ -730,8 +732,3 @@ Customer Interactions → Neo4j Graph Database → Enhanced Personalization Engi
                     Continuous Improvement via Reinforcement Learning
                            ↓
                     Customer Feedback → Marketing Actions
-```
-
-Happy analyzing! 📊
-
-```
