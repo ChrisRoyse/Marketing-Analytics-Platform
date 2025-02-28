@@ -35,6 +35,8 @@ Built with:
 
 ## 🏗️ Architecture
 
+![MArketing Analytics Platform](screenshot3.png)
+
 The platform follows a modular architecture with four main layers:
 
 - **Data Layer**: Neo4j graph database storing customer data, interactions, and insights.
@@ -538,6 +540,8 @@ OPENAI_API_KEY=your_openai_api_key
 
 The platform uses a graph data model in Neo4j with the following key entities:
 
+![MArketing Analytics Platform](screenshot4.png)
+
 ### Nodes
 - **Customer**: End users of the system
 - **Product**: Items that can be purchased
@@ -571,6 +575,8 @@ The platform uses a graph data model in Neo4j with the following key entities:
 ---
 
 ## 📈 Dashboard Screenshots
+
+![MArketing Analytics Platform](screenshot2.png)
 
 ### Customer Journey Timeline
 *Customer Journey Timeline visualization showing interactions over time*
