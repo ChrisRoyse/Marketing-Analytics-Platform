@@ -1,0 +1,647 @@
+{
+  "report_type": "Customer 360\u00b0 Analysis",
+  "customer_id": "C001",
+  "generated_at": "2025-02-27T23:15:32.483069",
+  "execution_time_seconds": 0.05423283576965332,
+  "profile": {
+    "customer_id": "C001",
+    "basic_info": {
+      "country": "USA",
+      "registration_date": "2024-01-27T22:49:28.991894",
+      "phone": "533-521-8196x001",
+      "city": "Austin",
+      "last_name": "Johnson",
+      "state": "TX",
+      "customer_id": "C001",
+      "postal_code": "66738",
+      "first_name": "Danielle",
+      "email": "danielle.johnson@example.com"
+    },
+    "devices": [
+      {
+        "id": "samsung_galaxy",
+        "relationship": "USES",
+        "properties": {
+          "id": "samsung_galaxy",
+          "name": "Samsung Galaxy"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "browsers": [
+      {
+        "id": "samsung_internet",
+        "relationship": "USES",
+        "properties": {
+          "id": "samsung_internet",
+          "name": "Samsung Internet"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "locations": [
+      {
+        "id": "Austin_TX_66738",
+        "relationship": "LIVES_IN",
+        "properties": {
+          "id": "Austin_TX_66738",
+          "postal_code": "66738",
+          "state": "TX",
+          "country": "USA",
+          "city": "Austin"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "channels": [],
+    "segments": [
+      {
+        "id": "high_value",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "high_value",
+          "name": "High Value"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "personas": [
+      {
+        "id": "student",
+        "relationship": "HAS_PERSONA",
+        "properties": {
+          "id": "student",
+          "name": "Student"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "entrepreneur",
+        "relationship": "HAS_PERSONA",
+        "properties": {
+          "id": "entrepreneur",
+          "name": "Entrepreneur"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "interactions": [
+      {
+        "type": "Product",
+        "id": "P018",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P018",
+          "category": "Home",
+          "price": 299.99,
+          "name": "Cookware Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:29.310861",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P015",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P015",
+          "category": "Home",
+          "price": 399.99,
+          "name": "Robot Vacuum"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:29.306846",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P024",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P024",
+          "category": "Apparel",
+          "price": 39.99,
+          "name": "Athletic Shorts"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:29.301848",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P018",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P018",
+          "category": "Home",
+          "price": 299.99,
+          "name": "Cookware Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:30.045635",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P015",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P015",
+          "category": "Home",
+          "price": 399.99,
+          "name": "Robot Vacuum"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:30.038617",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P024",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P024",
+          "category": "Apparel",
+          "price": 39.99,
+          "name": "Athletic Shorts"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:29.908857",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P018",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P018",
+          "category": "Home",
+          "price": 299.99,
+          "name": "Cookware Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:54.729785",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P015",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P015",
+          "category": "Home",
+          "price": 399.99,
+          "name": "Robot Vacuum"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:54.725768",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P024",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P024",
+          "category": "Apparel",
+          "price": 39.99,
+          "name": "Athletic Shorts"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:54.632946",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P001",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P001",
+          "category": "Electronics",
+          "price": 999.99,
+          "name": "Premium Smartphone"
+        },
+        "rel_properties": {
+          "amount": 999.99,
+          "timestamp": "2025-02-15T16:34:57.057384",
+          "description": "Customer purchases Premium Smartphone"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "about",
+        "relationship": "VISITS",
+        "properties": {
+          "id": "about",
+          "name": "About Us"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-06T00:22:08.229706",
+          "description": "Customer visits About Us"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P004",
+        "relationship": "ADDS_TO_CART",
+        "properties": {
+          "id": "P004",
+          "category": "Electronics",
+          "price": 1299.99,
+          "name": "Laptop"
+        },
+        "rel_properties": {
+          "timestamp": "2025-01-30T12:43:24.237205",
+          "description": "Customer adds_to_cart Laptop"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "home",
+        "relationship": "VISITS",
+        "properties": {
+          "id": "home",
+          "name": "Home Page"
+        },
+        "rel_properties": {
+          "timestamp": "2025-01-04T15:20:52.182609",
+          "description": "Customer visits Home Page"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P018",
+        "relationship": "COMMENTS_ON",
+        "properties": {
+          "id": "P018",
+          "category": "Home",
+          "price": 299.99,
+          "name": "Cookware Set"
+        },
+        "rel_properties": {
+          "timestamp": "2024-12-17T16:03:48.135030",
+          "description": "Customer comments_on Cookware Set"
+        }
+      }
+    ],
+    "email_activity": [
+      {
+        "id": "danielle.johnson@example.com",
+        "relationship": "HAS_EMAIL",
+        "properties": {
+          "id": "danielle.johnson@example.com",
+          "address": "danielle.johnson@example.com"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "funnel_status": [
+      {
+        "stage_name": "Awareness",
+        "relationship_type": "CURRENTLY_AT",
+        "relationship_properties": {}
+      }
+    ],
+    "entity_summary": {
+      "Product": 12,
+      "Page": 2,
+      "Device": 1,
+      "Browser": 1,
+      "Email": 1,
+      "Segment": 1,
+      "Persona": 2,
+      "Location": 1,
+      "ChurnRisk": 1,
+      "Customer": 14,
+      "PredictiveModel": 1
+    }
+  },
+  "journey": {
+    "timeline": [
+      {
+        "timestamp": "2024-12-17T16:03:48.135030",
+        "event_type": "COMMENTS_ON",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P018",
+        "details": {
+          "timestamp": "2024-12-17T16:03:48.135030",
+          "description": "Customer comments_on Cookware Set"
+        },
+        "description": "None P018"
+      },
+      {
+        "timestamp": "2025-01-04T15:20:52.182609",
+        "event_type": "VISITS",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "home",
+        "details": {
+          "timestamp": "2025-01-04T15:20:52.182609",
+          "description": "Customer visits Home Page"
+        },
+        "description": "None home"
+      },
+      {
+        "timestamp": "2025-01-30T12:43:24.237205",
+        "event_type": "ADDS_TO_CART",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P004",
+        "details": {
+          "timestamp": "2025-01-30T12:43:24.237205",
+          "description": "Customer adds_to_cart Laptop"
+        },
+        "description": "None P004"
+      },
+      {
+        "timestamp": "2025-02-06T00:22:08.229706",
+        "event_type": "VISITS",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "about",
+        "details": {
+          "timestamp": "2025-02-06T00:22:08.229706",
+          "description": "Customer visits About Us"
+        },
+        "description": "None about"
+      },
+      {
+        "timestamp": "2025-02-15T16:34:57.057384",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P001",
+        "details": {
+          "amount": 999.99,
+          "timestamp": "2025-02-15T16:34:57.057384",
+          "description": "Customer purchases Premium Smartphone"
+        },
+        "description": "None P001"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:54.632946",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P024",
+        "details": {
+          "timestamp": "2025-02-27T22:23:54.632946",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        },
+        "description": "None P024"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:54.725768",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P015",
+        "details": {
+          "timestamp": "2025-02-27T22:23:54.725768",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        },
+        "description": "None P015"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:54.729785",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P018",
+        "details": {
+          "timestamp": "2025-02-27T22:23:54.729785",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        },
+        "description": "None P018"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:29.908857",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P024",
+        "details": {
+          "timestamp": "2025-02-27T22:40:29.908857",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        },
+        "description": "None P024"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:30.038617",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P015",
+        "details": {
+          "timestamp": "2025-02-27T22:40:30.038617",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        },
+        "description": "None P015"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:30.045635",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P018",
+        "details": {
+          "timestamp": "2025-02-27T22:40:30.045635",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        },
+        "description": "None P018"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:29.301848",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P024",
+        "details": {
+          "timestamp": "2025-02-27T22:49:29.301848",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.5624130814266046
+        },
+        "description": "None P024"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:29.306846",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P015",
+        "details": {
+          "timestamp": "2025-02-27T22:49:29.306846",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.5394000990392291
+        },
+        "description": "None P015"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:29.310861",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P018",
+        "details": {
+          "timestamp": "2025-02-27T22:49:29.310861",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8143198997472216
+        },
+        "description": "None P018"
+      }
+    ],
+    "funnel_status": {
+      "current_stage": "Advocacy",
+      "completed_stages": [
+        "Consideration",
+        "Intent",
+        "Conversion",
+        "Advocacy"
+      ],
+      "all_stages": [
+        "Awareness",
+        "Consideration",
+        "Intent",
+        "Conversion",
+        "Retention",
+        "Advocacy"
+      ],
+      "has_churned": false
+    }
+  },
+  "insights": {
+    "similar_customers": [
+      {
+        "customer_id": "C015",
+        "name": null,
+        "similarity_score": 1.5
+      },
+      {
+        "customer_id": "C010",
+        "name": null,
+        "similarity_score": 1.5
+      },
+      {
+        "customer_id": "C009",
+        "name": null,
+        "similarity_score": 1.5
+      },
+      {
+        "customer_id": "C002",
+        "name": null,
+        "similarity_score": 1.5
+      },
+      {
+        "customer_id": "C017",
+        "name": null,
+        "similarity_score": 1.5
+      }
+    ],
+    "product_recommendations": [
+      {
+        "product_id": "P001",
+        "purchase_count": 5,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P030",
+        "purchase_count": 4,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P002",
+        "purchase_count": 4,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P005",
+        "purchase_count": 3,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P020",
+        "purchase_count": 3,
+        "previously_viewed": false
+      }
+    ],
+    "churn_risk": {
+      "overall_risk": "Medium",
+      "factors": {
+        "inactivity": {
+          "level": "Very Low",
+          "days_inactive": 0
+        },
+        "purchase_history": {
+          "level": "Medium",
+          "purchase_count": 1
+        },
+        "cart_abandonment": {
+          "level": "Medium",
+          "has_abandoned": true
+        },
+        "engagement": {
+          "level": "High",
+          "email_interactions": 0
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "action_type": "Referral Program",
+      "priority": "Low",
+      "description": "Invite to refer friends",
+      "details": "Customer is an advocate. Invite them to participate in your referral program with rewards for successful referrals"
+    },
+    {
+      "action_type": "Engagement Boost",
+      "priority": "Medium",
+      "description": "Send personalized content",
+      "details": "Customer shows moderate churn risk. Send personalized content based on their interests to boost engagement"
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "triples": [
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "is_primary": true
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Device",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "is_primary": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "ACCESSES_WITH",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "version": "unknown"
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Browser",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "version": "unknown"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "HAS_EMAIL",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "is_primary": true,
+          "verified": true
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Email",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713",
+          "is_primary": true,
+          "verified": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "LOCATED_IN",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Location",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "OperatingSystem",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Segment",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "HAS_PERSONA",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Persona",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "AT_STAGE",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "BehaviorStage",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.914713"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST016",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST016"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-11T12:00:00",
+          "action": "diy_tutorial_view"
+        }
+      },
+      "object": {
+        "id": "DIY001",
+        "type": "Content",
+        "properties": {}
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Device",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "ACCESSES_WITH",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "version": "unknown"
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Browser",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "version": "unknown"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "HAS_EMAIL",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true,
+          "verified": true
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Email",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true,
+          "verified": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "LOCATED_IN",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Location",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "OperatingSystem",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Segment",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "HAS_PERSONA",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Persona",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "AT_STAGE",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "BehaviorStage",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST017",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST017"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-10T15:00:00",
+          "action": "recipe_view"
+        }
+      },
+      "object": {
+        "id": "RECIPE001",
+        "type": "Content",
+        "properties": {}
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Device",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "ACCESSES_WITH",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "version": "unknown"
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Browser",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "version": "unknown"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "HAS_EMAIL",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true,
+          "verified": true
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Email",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718",
+          "is_primary": true,
+          "verified": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "LOCATED_IN",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Location",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "OperatingSystem",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Segment",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "HAS_PERSONA",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Persona",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "AT_STAGE",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "BehaviorStage",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.915718"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST018",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST018"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-09T10:00:00",
+          "action": "photography_workshop"
+        }
+      },
+      "object": {
+        "id": "PHOTO001",
+        "type": "Content",
+        "properties": {}
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Device",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "ACCESSES_WITH",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "version": "unknown"
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Browser",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "version": "unknown"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "HAS_EMAIL",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true,
+          "verified": true
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Email",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true,
+          "verified": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "LOCATED_IN",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Location",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "OperatingSystem",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Segment",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "HAS_PERSONA",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Persona",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "AT_STAGE",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "BehaviorStage",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST019",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST019"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-08T14:00:00",
+          "action": "travel_guide_view"
+        }
+      },
+      "object": {
+        "id": "TRAVEL001",
+        "type": "Content",
+        "properties": {}
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Device",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "ACCESSES_WITH",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "version": "unknown"
+        }
+      },
+      "object": {
+        "id": "unknown",
+        "type": "Browser",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "version": "unknown"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "HAS_EMAIL",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true,
+          "verified": true
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Email",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222",
+          "is_primary": true,
+          "verified": true
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "LOCATED_IN",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "Location",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "USES",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": "",
+        "type": "OperatingSystem",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Segment",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "HAS_PERSONA",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "Persona",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "AT_STAGE",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      },
+      "object": {
+        "id": null,
+        "type": "BehaviorStage",
+        "properties": {
+          "timestamp": "2025-03-01T20:16:51.916222"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "name": "Customer CUST020",
+          "lifetime_value": 0,
+          "last_seen": "",
+          "is_churned": false,
+          "customer_id": "CUST020"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-07T17:00:00",
+          "action": "pet_care_guide"
+        }
+      },
+      "object": {
+        "id": "PET001",
+        "type": "Content",
+        "properties": {}
+      }
+    }
+  ]
+}

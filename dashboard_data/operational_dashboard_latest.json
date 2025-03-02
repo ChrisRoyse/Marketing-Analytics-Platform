@@ -1,0 +1,63 @@
+{
+  "marketing_performance": {
+    "campaigns": [
+      {"campaign_id": "spring_promo_2025", "campaign_name": "Spring Collection Promo", 
+       "views": 1200, "clicks": 240, "conversions": 36, "revenue": 5400, 
+       "click_rate": 0.20, "conversion_rate": 0.15}
+    ]
+  },
+  "channel_analysis": {
+    "channels": [
+      {"channel_id": "organic_search", "visitors": 1500, "revenue": 22500, "purchases": 150,
+       "conversion_rate": 0.10, "revenue_per_visitor": 15.0, "avg_order_value": 150.0}
+    ],
+    "attribution_model": [
+      {
+        "model": "First Touch",
+        "channels": [{"channel_id": "organic_search", "attribution": 45.0}]
+      }
+    ]
+  },
+  "service_metrics": {
+    "summary": {
+      "total_tickets": 120,
+      "open_tickets": 15,
+      "resolution_rate": 87.5
+    },
+    "categories": [
+      {"category": "Product Question", "count": 45}
+    ],
+    "priority_distribution": {
+      "high": 15,
+      "medium": 45,
+      "low": 60
+    },
+    "resolution_time_by_priority": {
+      "high": 8.5,
+      "medium": 12.0,
+      "low": 16.5
+    },
+    "recent_trends": {
+      "daily_tickets": [5, 6, 8, 7, 9, 10, 8],
+      "daily_closed": [4, 5, 7, 6, 8, 9, 7],
+      "daily_satisfaction": [4.2, 4.3, 4.1, 4.0, 4.3, 4.4, 4.2]
+    }
+  },
+  "roi_analysis": {
+    "channel_roi": [
+      {"channel_id": "organic_search", "cost": 5000, "revenue": 22500, "roi": 3.5}
+    ],
+    "campaign_roi": [
+      {"campaign_id": "spring_promo_2025", "campaign_name": "Spring Collection Promo", 
+       "cost": 1200, "revenue": 5400, "roi": 3.5, "roas": 4.5}
+    ],
+    "roi_trend": [
+      {"month": "2025-01", "cost": 15000, "revenue": 45000, "roi": 2.0},
+      {"month": "2025-02", "cost": 16000, "revenue": 51200, "roi": 2.2}
+    ],
+    "total_cost": 47000,
+    "total_revenue": 150000,
+    "overall_roi": 2.19,
+    "overall_roas": 3.19
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "report_type": "Customer 360\u00b0 Analysis",
+  "customer_id": "CUST018",
+  "generated_at": "2025-02-27T22:16:37.393971",
+  "execution_time_seconds": 0.14581060409545898,
+  "profile": {
+    "customer_id": "CUST018",
+    "basic_info": {
+      "name": "Nina Patel",
+      "id": "CUST018",
+      "customer_id": "CUST018",
+      "email": "nina.p@email.com"
+    },
+    "devices": [],
+    "browsers": [],
+    "locations": [],
+    "channels": [],
+    "segments": [
+      {
+        "id": "Photography-Pro",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "Photography-Pro",
+          "description": "Professional photographers"
+        },
+        "rel_properties": {
+          "timestamp": "2024-10-09T10:00:00"
+        }
+      }
+    ],
+    "personas": [],
+    "interactions": [
+      {
+        "type": "Product",
+        "id": "CAM001",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "CAM001",
+          "category": "Photography",
+          "name": "Professional Camera"
+        },
+        "rel_properties": {
+          "amount": 1299.99,
+          "timestamp": "2024-10-09T11:00:00",
+          "action": "purchased"
+        }
+      },
+      {
+        "type": "Content",
+        "id": "PHOTO001",
+        "relationship": "INTERACTS_WITH",
+        "properties": {
+          "id": "PHOTO001",
+          "name": "Advanced Photography",
+          "type": "Workshop"
+        },
+        "rel_properties": {
+          "timestamp": "2024-10-09T10:00:00",
+          "action": "photography_workshop"
+        }
+      }
+    ],
+    "email_activity": [],
+    "funnel_status": [],
+    "entity_summary": {
+      "Product": 1,
+      "Content": 1,
+      "Segment": 1,
+      "Feedback": 4,
+      "NLPInsight": 1,
+      "Context": 1
+    }
+  },
+  "journey": {
+    "timeline": [
+      {
+        "timestamp": "2024-10-09T10:00:00",
+        "event_type": "INTERACTS_WITH",
+        "action": "photography_workshop",
+        "target_type": "Content",
+        "target_id": "PHOTO001",
+        "details": {
+          "timestamp": "2024-10-09T10:00:00",
+          "action": "photography_workshop"
+        },
+        "description": "photography_workshop PHOTO001"
+      },
+      {
+        "timestamp": "2024-10-09T10:00:00",
+        "event_type": "BELONGS_TO",
+        "action": null,
+        "target_type": "Segment",
+        "target_id": "Photography-Pro",
+        "details": {
+          "timestamp": "2024-10-09T10:00:00"
+        },
+        "description": "None Photography-Pro"
+      },
+      {
+        "timestamp": "2024-10-09T11:00:00",
+        "event_type": "PURCHASES",
+        "action": "purchased",
+        "target_type": "Product",
+        "target_id": "CAM001",
+        "details": {
+          "amount": 1299.99,
+          "timestamp": "2024-10-09T11:00:00",
+          "action": "purchased"
+        },
+        "description": "purchased product CAM001"
+      }
+    ],
+    "funnel_status": {
+      "current_stage": "Conversion",
+      "completed_stages": [
+        "Conversion"
+      ],
+      "all_stages": [
+        "Awareness",
+        "Consideration",
+        "Intent",
+        "Conversion",
+        "Retention",
+        "Advocacy"
+      ],
+      "has_churned": false
+    }
+  },
+  "insights": {
+    "similar_customers": [],
+    "product_recommendations": [
+      {
+        "product_id": "CAM001",
+        "purchase_count": 1,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "PROD001",
+        "purchase_count": 1,
+        "previously_viewed": false
+      }
+    ],
+    "churn_risk": {
+      "overall_risk": "High",
+      "factors": {
+        "inactivity": {
+          "level": "High",
+          "days_inactive": 141
+        },
+        "purchase_history": {
+          "level": "Medium",
+          "purchase_count": 1
+        },
+        "cart_abandonment": {
+          "level": "Medium",
+          "has_abandoned": true
+        },
+        "engagement": {
+          "level": "High",
+          "email_interactions": 0
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "action_type": "Churn Prevention",
+      "priority": "High",
+      "description": "Immediate engagement with special offer",
+      "details": "This customer is at high risk of churning and should receive an immediate retention offer"
+    }
+  ]
+}

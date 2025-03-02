@@ -1,0 +1,128 @@
+{
+  "Basic Queries": [
+    {
+      "name": "Count nodes by label",
+      "query": "\n                CALL db.labels() YIELD label\n                MATCH (n:`' + label + '`)\n                RETURN label, count(n) AS count\n                ORDER BY count DESC\n                "
+    },
+    {
+      "name": "Count relationships by type",
+      "query": "\n                CALL db.relationshipTypes() YIELD relationshipType\n                MATCH ()-[r:`' + relationshipType + '`]->()\n                RETURN relationshipType, count(r) AS count\n                ORDER BY count DESC\n                "
+    },
+    {
+      "name": "Get a sample customer with all their attributes",
+      "query": "\n                MATCH (c:Customer)\n                RETURN c\n                LIMIT 1\n                "
+    }
+  ],
+  "Customer Journey Analysis": [
+    {
+      "name": "Complete customer journey visualization",
+      "query": "\n                MATCH (c:Customer {customer_id: $customer_id})-[r]->(n)\n                RETURN c, r, n\n                "
+    },
+    {
+      "name": "Get customer devices and browsers",
+      "query": "\n                MATCH (c:Customer {customer_id: $customer_id})\n                OPTIONAL MATCH (c)-[r1:USES]->(d:Device)\n                OPTIONAL MATCH (c)-[r2:ACCESSES_WITH]->(b:Browser)\n                RETURN c.customer_id, c.name, \n                       collect(DISTINCT {type: 'Device', id: d.id, since: r1.timestamp}) as devices,\n                       collect(DISTINCT {type: 'Browser', id: b.id, since: r2.timestamp}) as browsers\n                "
+    },
+    {
+      "name": "Customer journey timeline",
+      "query": "\n                MATCH (c:Customer {customer_id: $customer_id})-[r]->(n)\n                WHERE r.timestamp IS NOT NULL\n                RETURN c.customer_id, c.name, \n                       type(r) as interaction,\n                       n.id as target_id,\n                       labels(n)[0] as target_type,\n                       r.action as action,\n                       r.timestamp as timestamp\n                ORDER BY r.timestamp\n                "
+    }
+  ],
+  "Funnel and Churn Analysis": [
+    {
+      "name": "Identify customers who abandoned carts",
+      "query": "\n                MATCH (c:Customer)-[r:ABANDONS]->(cart:Cart)\n                RETURN c.customer_id, c.name, cart.id, r.timestamp\n                ORDER BY r.timestamp DESC\n                "
+    },
+    {
+      "name": "Find explicit churn points",
+      "query": "\n                MATCH (c:Customer)-[r:CHURNED_AT]->(stage:FunnelStage)\n                RETURN c.customer_id, c.name, stage.name as funnel_stage,\n                       r.timestamp, r.action, r.reason\n                ORDER BY r.timestamp DESC\n                "
+    },
+    {
+      "name": "Analyze funnel progression",
+      "query": "\n                MATCH (c:Customer)\n                OPTIONAL MATCH (c)-[awareness:VIEWS|CLICKS_ON]->(awareness_node)\n                WHERE awareness_node:Advertisement\n                WITH c, count(awareness) > 0 as reached_awareness\n                \n                OPTIONAL MATCH (c)-[consideration:VISITS|VIEWS|ADDS_TO_CART]->(consideration_node)\n                WHERE consideration_node:Page OR consideration_node:Product\n                WITH c, reached_awareness, count(consideration) > 0 as reached_consideration\n                \n                OPTIONAL MATCH (c)-[conversion:PURCHASES]->(conversion_node)\n                WHERE conversion_node:Product\n                WITH c, reached_awareness, reached_consideration, count(conversion) > 0 as reached_conversion\n                \n                OPTIONAL MATCH (c)-[retention:INTERACTS_WITH]->(retention_node)\n                WHERE retention_node:Content AND retention_node.id CONTAINS 'post_purchase'\n                WITH c, reached_awareness, reached_consideration, reached_conversion, count(retention) > 0 as reached_retention\n                \n                OPTIONAL MATCH (c)-[advocacy:REFERS|COMMENTS_ON]->(advocacy_node)\n                WITH c, reached_awareness, reached_consideration, reached_conversion, reached_retention, count(advocacy) > 0 as reached_advocacy\n                \n                RETURN c.customer_id, c.name,\n                       CASE WHEN reached_awareness THEN 1 ELSE 0 END as awareness,\n                       CASE WHEN reached_consideration THEN 1 ELSE 0 END as consideration,\n                       CASE WHEN reached_conversion THEN 1 ELSE 0 END as conversion,\n                       CASE WHEN reached_retention THEN 1 ELSE 0 END as retention,\n                       CASE WHEN reached_advocacy THEN 1 ELSE 0 END as advocacy,\n                       CASE \n                         WHEN reached_advocacy THEN 'Advocacy'\n                         WHEN reached_retention THEN 'Retention'\n                         WHEN reached_conversion THEN 'Conversion'\n                         WHEN reached_consideration THEN 'Consideration'\n                         WHEN reached_awareness THEN 'Awareness'\n                         ELSE 'Pre-awareness'\n                       END as current_stage\n                "
+    }
+  ],
+  "Device and Channel Analysis": [
+    {
+      "name": "Device usage distribution",
+      "query": "\n                MATCH (d:Device)<-[r:USES]-(c:Customer)\n                RETURN d.id as device_type, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Browser distribution",
+      "query": "\n                MATCH (b:Browser)<-[r:ACCESSES_WITH]-(c:Customer)\n                RETURN b.id as browser, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Preferred channel distribution",
+      "query": "\n                MATCH (ch:Channel)<-[r:PREFERS]-(c:Customer)\n                RETURN ch.id as channel, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Device and browser combinations",
+      "query": "\n                MATCH (c:Customer)-[:USES]->(d:Device)\n                MATCH (c)-[:ACCESSES_WITH]->(b:Browser)\n                RETURN d.id as device, b.id as browser, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    }
+  ],
+  "Segment and Persona Analysis": [
+    {
+      "name": "Customer distribution by segment",
+      "query": "\n                MATCH (s:Segment)<-[r:BELONGS_TO]-(c:Customer)\n                RETURN s.id as segment, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Customer distribution by persona",
+      "query": "\n                MATCH (p:Persona)<-[r:HAS_PERSONA]-(c:Customer)\n                RETURN p.id as persona, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Segment and persona combinations",
+      "query": "\n                MATCH (c:Customer)-[:BELONGS_TO]->(s:Segment)\n                MATCH (c)-[:HAS_PERSONA]->(p:Persona)\n                RETURN s.id as segment, p.id as persona, count(c) as customer_count\n                ORDER BY s.id, customer_count DESC\n                "
+    },
+    {
+      "name": "Device preferences by persona",
+      "query": "\n                MATCH (p:Persona)<-[:HAS_PERSONA]-(c:Customer)-[:USES]->(d:Device)\n                RETURN p.id as persona, d.id as device, count(c) as customer_count\n                ORDER BY persona, customer_count DESC\n                "
+    }
+  ],
+  "Purchase and Behavior Analysis": [
+    {
+      "name": "Most purchased products",
+      "query": "\n                MATCH (c:Customer)-[r:PURCHASES]->(p:Product)\n                RETURN p.id as product, count(c) as purchase_count\n                ORDER BY purchase_count DESC\n                "
+    },
+    {
+      "name": "Most viewed products that weren't purchased",
+      "query": "\n                MATCH (c:Customer)-[v:VIEWS]->(p:Product)\n                WHERE NOT (c)-[:PURCHASES]->(p)\n                RETURN p.id as product, count(c) as view_count\n                ORDER BY view_count DESC\n                "
+    },
+    {
+      "name": "Average time from view to purchase",
+      "query": "\n                MATCH (c:Customer)-[v:VIEWS]->(p:Product)\n                MATCH (c)-[pu:PURCHASES]->(p)\n                WHERE v.timestamp < pu.timestamp\n                WITH c, p, v.timestamp as view_time, pu.timestamp as purchase_time\n                RETURN p.id as product,\n                       avg(duration.between(datetime(view_time), datetime(purchase_time)).seconds) as avg_seconds_to_purchase\n                ORDER BY avg_seconds_to_purchase\n                "
+    }
+  ],
+  "Email and Content Analysis": [
+    {
+      "name": "Most effective email campaigns",
+      "query": "\n                MATCH (c:Customer)-[v:VIEWS]->(e:Email)\n                OPTIONAL MATCH (c)-[cl:CLICKS_ON]->(e)\n                WITH e.id as email_campaign, count(v) as view_count, count(cl) as click_count\n                RETURN email_campaign, view_count, click_count, \n                       CASE WHEN view_count > 0 THEN toFloat(click_count) / view_count ELSE 0 END as click_rate\n                ORDER BY click_rate DESC\n                "
+    },
+    {
+      "name": "Most engaged content",
+      "query": "\n                MATCH (c:Customer)-[r]->(co:Content)\n                RETURN co.id as content, type(r) as interaction_type, count(c) as interaction_count\n                ORDER BY interaction_count DESC\n                "
+    }
+  ],
+  "Location-Based Analysis": [
+    {
+      "name": "Customer distribution by location",
+      "query": "\n                MATCH (l:Location)<-[r:LOCATED_IN]-(c:Customer)\n                RETURN l.id as location, count(c) as customer_count\n                ORDER BY customer_count DESC\n                "
+    },
+    {
+      "name": "Purchase behavior by location",
+      "query": "\n                MATCH (c:Customer)-[:LOCATED_IN]->(l:Location)\n                OPTIONAL MATCH (c)-[p:PURCHASES]->(pr:Product)\n                WITH l.id as location, count(DISTINCT c) as customer_count, count(p) as purchase_count\n                RETURN location, customer_count, purchase_count,\n                       CASE WHEN customer_count > 0 THEN toFloat(purchase_count) / customer_count ELSE 0 END as purchases_per_customer\n                ORDER BY purchases_per_customer DESC\n                "
+    }
+  ],
+  "Advanced Graph Analysis": [
+    {
+      "name": "Customer similarity based on behavior",
+      "query": "\n                MATCH (c1:Customer)-[r1]->(n)\n                MATCH (c2:Customer)-[r2]->(n)\n                WHERE id(c1) < id(c2) AND type(r1) = type(r2)\n                WITH c1, c2, count(DISTINCT n) as common_interactions\n                WHERE common_interactions >= 3\n                RETURN c1.customer_id, c1.name, c2.customer_id, c2.name, common_interactions\n                ORDER BY common_interactions DESC\n                LIMIT 20\n                "
+    },
+    {
+      "name": "Product recommendation",
+      "query": "\n                MATCH (c:Customer {customer_id: $customer_id})-[:PURCHASES]->(p:Product)\n                MATCH (other:Customer)-[:PURCHASES]->(p)\n                MATCH (other)-[:PURCHASES]->(rec:Product)\n                WHERE NOT (c)-[:PURCHASES]->(rec)\n                RETURN rec.id as recommended_product, count(DISTINCT other) as customer_count\n                ORDER BY customer_count DESC\n                LIMIT 5\n                "
+    },
+    {
+      "name": "Customer journey patterns",
+      "query": "\n                MATCH path = (c:Customer)-[r1]->(n1)-[r2]->(n2)\n                WHERE type(r1) <> type(r2)\n                WITH [type(r1), labels(n1)[0], type(r2), labels(n2)[0]] as pattern, count(*) as pattern_count\n                RETURN pattern, pattern_count\n                ORDER BY pattern_count DESC\n                LIMIT 10\n                "
+    }
+  ]
+}

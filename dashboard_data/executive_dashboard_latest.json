@@ -1,0 +1,38 @@
+{
+  "strategic_kpis": {
+    "revenue": {
+      "total_revenue": 150000,
+      "current_month_revenue": 12500,
+      "revenue_growth": 11.61
+    },
+    "customers": {
+      "total_customers": 500,
+      "active_customers": 350,
+      "new_customers": 30
+    },
+    "growth": {
+      "monthly_data": [
+        {"month": "2025-01", "monthly_revenue": 10000, "monthly_customers": 100, "monthly_purchases": 150},
+        {"month": "2025-02", "monthly_revenue": 12000, "monthly_customers": 120, "monthly_purchases": 180}
+      ],
+      "revenue_cagr": 12.5,
+      "customer_cagr": 8.5
+    }
+  },
+  "benchmarking": {
+    "metrics": [
+      {
+        "metric": "Conversion Rate",
+        "company": 3.5,
+        "industry": 2.5,
+        "best": 5.0
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "company": 25.0,
+        "industry": 30.0,
+        "best": 15.0
+      }
+    ]
+  }
+}

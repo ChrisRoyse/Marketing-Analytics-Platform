@@ -1,0 +1,1301 @@
+{
+  "report_type": "Customer 360\u00b0 Analysis",
+  "customer_id": "C006",
+  "generated_at": "2025-02-27T23:15:32.675993",
+  "execution_time_seconds": 0.03206205368041992,
+  "profile": {
+    "customer_id": "C006",
+    "basic_info": {
+      "country": "USA",
+      "registration_date": "2023-09-14T22:49:32.188411",
+      "phone": "+1-772-542-3884x9696",
+      "city": "New York",
+      "last_name": "Wilkerson",
+      "state": "NY",
+      "customer_id": "C006",
+      "postal_code": "18632",
+      "first_name": "Victor",
+      "email": "victor.wilkerson@example.com"
+    },
+    "devices": [
+      {
+        "id": "samsung_galaxy",
+        "relationship": "USES",
+        "properties": {
+          "id": "samsung_galaxy",
+          "name": "Samsung Galaxy"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "macbook",
+        "relationship": "USES",
+        "properties": {
+          "id": "macbook",
+          "name": "MacBook"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "windows_laptop",
+        "relationship": "USES",
+        "properties": {
+          "id": "windows_laptop",
+          "name": "Windows Laptop"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "ipad",
+        "relationship": "USES",
+        "properties": {
+          "id": "ipad",
+          "name": "iPad"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "browsers": [
+      {
+        "id": "samsung_internet",
+        "relationship": "USES",
+        "properties": {
+          "id": "samsung_internet",
+          "name": "Samsung Internet"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "safari",
+        "relationship": "USES",
+        "properties": {
+          "id": "safari",
+          "name": "Safari"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "chrome",
+        "relationship": "USES",
+        "properties": {
+          "id": "chrome",
+          "name": "Chrome"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "locations": [
+      {
+        "id": "Phoenix_AZ_18632",
+        "relationship": "LIVES_IN",
+        "properties": {
+          "id": "Phoenix_AZ_18632",
+          "postal_code": "18632",
+          "state": "AZ",
+          "country": "USA",
+          "city": "Phoenix"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "San Francisco_CA_18632",
+        "relationship": "LIVES_IN",
+        "properties": {
+          "id": "San Francisco_CA_18632",
+          "postal_code": "18632",
+          "state": "CA",
+          "country": "USA",
+          "city": "San Francisco"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "New York_NY_18632",
+        "relationship": "LIVES_IN",
+        "properties": {
+          "id": "New York_NY_18632",
+          "postal_code": "18632",
+          "state": "NY",
+          "country": "USA",
+          "city": "New York"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "channels": [],
+    "segments": [
+      {
+        "id": "new_customer",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "new_customer",
+          "name": "New Customer"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "impulse_buyer",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "impulse_buyer",
+          "name": "Impulse Buyer"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "low_value",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "low_value",
+          "name": "Low Value"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "bargain_hunter",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "bargain_hunter",
+          "name": "Bargain Hunter"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "tech_savvy",
+        "relationship": "BELONGS_TO",
+        "properties": {
+          "id": "tech_savvy",
+          "name": "Tech Savvy"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "personas": [
+      {
+        "id": "student",
+        "relationship": "HAS_PERSONA",
+        "properties": {
+          "id": "student",
+          "name": "Student"
+        },
+        "rel_properties": {}
+      },
+      {
+        "id": "family_oriented",
+        "relationship": "HAS_PERSONA",
+        "properties": {
+          "id": "family_oriented",
+          "name": "Family Oriented"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "interactions": [
+      {
+        "type": "Product",
+        "id": "P023",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P023",
+          "category": "Apparel",
+          "price": 79.99,
+          "name": "Workout Leggings"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:32.292004",
+          "rank": 5,
+          "previously_viewed": false,
+          "score": 0.7380465553920823
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P020",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P020",
+          "category": "Home",
+          "price": 129.99,
+          "name": "Bedding Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:32.288492",
+          "rank": 4,
+          "previously_viewed": true,
+          "score": 0.7775881057909304
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P029",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P029",
+          "category": "Apparel",
+          "price": 89.99,
+          "name": "Backpack"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:32.284988",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.62067802518634
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P009",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P009",
+          "category": "Electronics",
+          "price": 39.99,
+          "name": "Wireless Charger"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:32.281987",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.7583136258574671
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P011",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P011",
+          "category": "Home",
+          "price": 199.99,
+          "name": "Premium Coffee Maker"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:49:32.278476",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.9400536726276151
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P023",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P023",
+          "category": "Apparel",
+          "price": 79.99,
+          "name": "Workout Leggings"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:34.004538",
+          "rank": 8,
+          "previously_viewed": false,
+          "score": 0.788510578235409
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P010",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P010",
+          "category": "Electronics",
+          "price": 129.99,
+          "name": "Smart Home Hub"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:34.001538",
+          "rank": 7,
+          "previously_viewed": false,
+          "score": 0.5326717175569662
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P030",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P030",
+          "category": "Apparel",
+          "price": 49.99,
+          "name": "Wallet"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.997524",
+          "rank": 6,
+          "previously_viewed": true,
+          "score": 0.9308614823137566
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P027",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P027",
+          "category": "Apparel",
+          "price": 199.99,
+          "name": "Winter Jacket"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.993523",
+          "rank": 5,
+          "previously_viewed": true,
+          "score": 0.9827488215691473
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P002",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P002",
+          "category": "Electronics",
+          "price": 149.99,
+          "name": "Wireless Earbuds"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.988514",
+          "rank": 4,
+          "previously_viewed": false,
+          "score": 0.739357104303199
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P009",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P009",
+          "category": "Electronics",
+          "price": 39.99,
+          "name": "Wireless Charger"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.984500",
+          "rank": 3,
+          "previously_viewed": true,
+          "score": 0.5061327016877539
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P005",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P005",
+          "category": "Electronics",
+          "price": 499.99,
+          "name": "Tablet"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.980497",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.876396087895627
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P018",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P018",
+          "category": "Home",
+          "price": 299.99,
+          "name": "Cookware Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:40:33.975987",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.9720448073978702
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P028",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P028",
+          "category": "Apparel",
+          "price": 129.99,
+          "name": "Sunglasses"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.034211",
+          "rank": 6,
+          "previously_viewed": false,
+          "score": 0.5782663077215691
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P014",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P014",
+          "category": "Home",
+          "price": 249.99,
+          "name": "Air Purifier"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.030696",
+          "rank": 5,
+          "previously_viewed": false,
+          "score": 0.6199325888373461
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P019",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P019",
+          "category": "Home",
+          "price": 149.99,
+          "name": "Knife Set"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.026691",
+          "rank": 4,
+          "previously_viewed": true,
+          "score": 0.6323230626450037
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P010",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P010",
+          "category": "Electronics",
+          "price": 129.99,
+          "name": "Smart Home Hub"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.022165",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8813685521773543
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P030",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P030",
+          "category": "Apparel",
+          "price": 49.99,
+          "name": "Wallet"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.018653",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.9800543887171496
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P015",
+        "relationship": "RECOMMENDED",
+        "properties": {
+          "id": "P015",
+          "category": "Home",
+          "price": 399.99,
+          "name": "Robot Vacuum"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-27T22:23:56.014138",
+          "rank": 1,
+          "previously_viewed": true,
+          "score": 0.7843147353121166
+        }
+      },
+      {
+        "type": "Page",
+        "id": "faq",
+        "relationship": "VISITS",
+        "properties": {
+          "id": "faq",
+          "name": "FAQ"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-13T04:47:33.225894",
+          "description": "Customer visits FAQ"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "support",
+        "relationship": "VISITS",
+        "properties": {
+          "id": "support",
+          "name": "Customer Support"
+        },
+        "rel_properties": {
+          "timestamp": "2025-02-11T03:59:30.245928",
+          "description": "Customer visits Customer Support"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P021",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P021",
+          "category": "Apparel",
+          "price": 129.99,
+          "name": "Running Shoes"
+        },
+        "rel_properties": {
+          "amount": 129.99,
+          "timestamp": "2025-02-07T09:37:46.257944",
+          "description": "Customer purchases Running Shoes"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "blog",
+        "relationship": "VIEWS",
+        "properties": {
+          "id": "blog",
+          "name": "Blog"
+        },
+        "rel_properties": {
+          "timestamp": "2025-01-23T11:55:17.266958",
+          "description": "Customer views Blog"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P025",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P025",
+          "category": "Apparel",
+          "price": 49.99,
+          "name": "Sports Bra"
+        },
+        "rel_properties": {
+          "amount": 49.99,
+          "timestamp": "2025-01-23T02:57:34.260958",
+          "description": "Customer purchases Sports Bra"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P004",
+        "relationship": "ADDS_TO_CART",
+        "properties": {
+          "id": "P004",
+          "category": "Electronics",
+          "price": 1299.99,
+          "name": "Laptop"
+        },
+        "rel_properties": {
+          "timestamp": "2025-01-14T21:55:06.250942",
+          "description": "Customer adds_to_cart Laptop"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P021",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P021",
+          "category": "Apparel",
+          "price": 129.99,
+          "name": "Running Shoes"
+        },
+        "rel_properties": {
+          "amount": 129.99,
+          "timestamp": "2025-01-03T01:26:28.248432",
+          "description": "Customer purchases Running Shoes"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P023",
+        "relationship": "ADDS_TO_CART",
+        "properties": {
+          "id": "P023",
+          "category": "Apparel",
+          "price": 79.99,
+          "name": "Workout Leggings"
+        },
+        "rel_properties": {
+          "timestamp": "2025-01-02T11:08:35.254943",
+          "description": "Customer adds_to_cart Workout Leggings"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P020",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P020",
+          "category": "Home",
+          "price": 129.99,
+          "name": "Bedding Set"
+        },
+        "rel_properties": {
+          "amount": 129.99,
+          "timestamp": "2024-12-31T15:01:03.269967",
+          "description": "Customer purchases Bedding Set"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P019",
+        "relationship": "COMMENTS_ON",
+        "properties": {
+          "id": "P019",
+          "category": "Home",
+          "price": 149.99,
+          "name": "Knife Set"
+        },
+        "rel_properties": {
+          "timestamp": "2024-12-27T08:21:40.263959",
+          "description": "Customer comments_on Knife Set"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "products",
+        "relationship": "CLICKS_ON",
+        "properties": {
+          "id": "products",
+          "name": "Products Page"
+        },
+        "rel_properties": {
+          "timestamp": "2024-12-12T23:55:52.238417",
+          "description": "Customer clicks_on Products Page"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P028",
+        "relationship": "ADDS_TO_CART",
+        "properties": {
+          "id": "P028",
+          "category": "Apparel",
+          "price": 129.99,
+          "name": "Sunglasses"
+        },
+        "rel_properties": {
+          "timestamp": "2024-12-03T10:28:31.272975",
+          "description": "Customer adds_to_cart Sunglasses"
+        }
+      },
+      {
+        "type": "Page",
+        "id": "products",
+        "relationship": "CLICKS_ON",
+        "properties": {
+          "id": "products",
+          "name": "Products Page"
+        },
+        "rel_properties": {
+          "timestamp": "2024-12-02T10:23:47.235913",
+          "description": "Customer clicks_on Products Page"
+        }
+      },
+      {
+        "type": "Product",
+        "id": "P026",
+        "relationship": "PURCHASES",
+        "properties": {
+          "id": "P026",
+          "category": "Apparel",
+          "price": 59.99,
+          "name": "Hoodie"
+        },
+        "rel_properties": {
+          "amount": 59.99,
+          "timestamp": "2024-11-29T12:54:49.241929",
+          "description": "Customer purchases Hoodie"
+        }
+      }
+    ],
+    "email_activity": [
+      {
+        "id": "victor.wilkerson@example.com",
+        "relationship": "HAS_EMAIL",
+        "properties": {
+          "id": "victor.wilkerson@example.com",
+          "address": "victor.wilkerson@example.com"
+        },
+        "rel_properties": {}
+      }
+    ],
+    "funnel_status": [
+      {
+        "stage_name": "Awareness",
+        "relationship_type": "CURRENTLY_AT",
+        "relationship_properties": {}
+      }
+    ],
+    "entity_summary": {
+      "Page": 5,
+      "Product": 28,
+      "Device": 4,
+      "Browser": 3,
+      "Email": 1,
+      "Segment": 5,
+      "Persona": 2,
+      "Location": 3,
+      "ChurnRisk": 1,
+      "Customer": 18,
+      "PredictiveModel": 1
+    }
+  },
+  "journey": {
+    "timeline": [
+      {
+        "timestamp": "2024-11-29T12:54:49.241929",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P026",
+        "details": {
+          "amount": 59.99,
+          "timestamp": "2024-11-29T12:54:49.241929",
+          "description": "Customer purchases Hoodie"
+        },
+        "description": "None P026"
+      },
+      {
+        "timestamp": "2024-12-02T10:23:47.235913",
+        "event_type": "CLICKS_ON",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "products",
+        "details": {
+          "timestamp": "2024-12-02T10:23:47.235913",
+          "description": "Customer clicks_on Products Page"
+        },
+        "description": "None products"
+      },
+      {
+        "timestamp": "2024-12-03T10:28:31.272975",
+        "event_type": "ADDS_TO_CART",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P028",
+        "details": {
+          "timestamp": "2024-12-03T10:28:31.272975",
+          "description": "Customer adds_to_cart Sunglasses"
+        },
+        "description": "None P028"
+      },
+      {
+        "timestamp": "2024-12-12T23:55:52.238417",
+        "event_type": "CLICKS_ON",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "products",
+        "details": {
+          "timestamp": "2024-12-12T23:55:52.238417",
+          "description": "Customer clicks_on Products Page"
+        },
+        "description": "None products"
+      },
+      {
+        "timestamp": "2024-12-27T08:21:40.263959",
+        "event_type": "COMMENTS_ON",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P019",
+        "details": {
+          "timestamp": "2024-12-27T08:21:40.263959",
+          "description": "Customer comments_on Knife Set"
+        },
+        "description": "None P019"
+      },
+      {
+        "timestamp": "2024-12-31T15:01:03.269967",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P020",
+        "details": {
+          "amount": 129.99,
+          "timestamp": "2024-12-31T15:01:03.269967",
+          "description": "Customer purchases Bedding Set"
+        },
+        "description": "None P020"
+      },
+      {
+        "timestamp": "2025-01-02T11:08:35.254943",
+        "event_type": "ADDS_TO_CART",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P023",
+        "details": {
+          "timestamp": "2025-01-02T11:08:35.254943",
+          "description": "Customer adds_to_cart Workout Leggings"
+        },
+        "description": "None P023"
+      },
+      {
+        "timestamp": "2025-01-03T01:26:28.248432",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P021",
+        "details": {
+          "amount": 129.99,
+          "timestamp": "2025-01-03T01:26:28.248432",
+          "description": "Customer purchases Running Shoes"
+        },
+        "description": "None P021"
+      },
+      {
+        "timestamp": "2025-01-14T21:55:06.250942",
+        "event_type": "ADDS_TO_CART",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P004",
+        "details": {
+          "timestamp": "2025-01-14T21:55:06.250942",
+          "description": "Customer adds_to_cart Laptop"
+        },
+        "description": "None P004"
+      },
+      {
+        "timestamp": "2025-01-23T02:57:34.260958",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P025",
+        "details": {
+          "amount": 49.99,
+          "timestamp": "2025-01-23T02:57:34.260958",
+          "description": "Customer purchases Sports Bra"
+        },
+        "description": "None P025"
+      },
+      {
+        "timestamp": "2025-01-23T11:55:17.266958",
+        "event_type": "VIEWS",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "blog",
+        "details": {
+          "timestamp": "2025-01-23T11:55:17.266958",
+          "description": "Customer views Blog"
+        },
+        "description": "None blog"
+      },
+      {
+        "timestamp": "2025-02-07T09:37:46.257944",
+        "event_type": "PURCHASES",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P021",
+        "details": {
+          "amount": 129.99,
+          "timestamp": "2025-02-07T09:37:46.257944",
+          "description": "Customer purchases Running Shoes"
+        },
+        "description": "None P021"
+      },
+      {
+        "timestamp": "2025-02-11T03:59:30.245928",
+        "event_type": "VISITS",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "support",
+        "details": {
+          "timestamp": "2025-02-11T03:59:30.245928",
+          "description": "Customer visits Customer Support"
+        },
+        "description": "None support"
+      },
+      {
+        "timestamp": "2025-02-13T04:47:33.225894",
+        "event_type": "VISITS",
+        "action": null,
+        "target_type": "Page",
+        "target_id": "faq",
+        "details": {
+          "timestamp": "2025-02-13T04:47:33.225894",
+          "description": "Customer visits FAQ"
+        },
+        "description": "None faq"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.014138",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P015",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.014138",
+          "rank": 1,
+          "previously_viewed": true,
+          "score": 0.7843147353121166
+        },
+        "description": "None P015"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.018653",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P030",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.018653",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.9800543887171496
+        },
+        "description": "None P030"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.022165",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P010",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.022165",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.8813685521773543
+        },
+        "description": "None P010"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.026691",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P019",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.026691",
+          "rank": 4,
+          "previously_viewed": true,
+          "score": 0.6323230626450037
+        },
+        "description": "None P019"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.030696",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P014",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.030696",
+          "rank": 5,
+          "previously_viewed": false,
+          "score": 0.6199325888373461
+        },
+        "description": "None P014"
+      },
+      {
+        "timestamp": "2025-02-27T22:23:56.034211",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P028",
+        "details": {
+          "timestamp": "2025-02-27T22:23:56.034211",
+          "rank": 6,
+          "previously_viewed": false,
+          "score": 0.5782663077215691
+        },
+        "description": "None P028"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.975987",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P018",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.975987",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.9720448073978702
+        },
+        "description": "None P018"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.980497",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P005",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.980497",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.876396087895627
+        },
+        "description": "None P005"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.984500",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P009",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.984500",
+          "rank": 3,
+          "previously_viewed": true,
+          "score": 0.5061327016877539
+        },
+        "description": "None P009"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.988514",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P002",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.988514",
+          "rank": 4,
+          "previously_viewed": false,
+          "score": 0.739357104303199
+        },
+        "description": "None P002"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.993523",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P027",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.993523",
+          "rank": 5,
+          "previously_viewed": true,
+          "score": 0.9827488215691473
+        },
+        "description": "None P027"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:33.997524",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P030",
+        "details": {
+          "timestamp": "2025-02-27T22:40:33.997524",
+          "rank": 6,
+          "previously_viewed": true,
+          "score": 0.9308614823137566
+        },
+        "description": "None P030"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:34.001538",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P010",
+        "details": {
+          "timestamp": "2025-02-27T22:40:34.001538",
+          "rank": 7,
+          "previously_viewed": false,
+          "score": 0.5326717175569662
+        },
+        "description": "None P010"
+      },
+      {
+        "timestamp": "2025-02-27T22:40:34.004538",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P023",
+        "details": {
+          "timestamp": "2025-02-27T22:40:34.004538",
+          "rank": 8,
+          "previously_viewed": false,
+          "score": 0.788510578235409
+        },
+        "description": "None P023"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:32.278476",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P011",
+        "details": {
+          "timestamp": "2025-02-27T22:49:32.278476",
+          "rank": 1,
+          "previously_viewed": false,
+          "score": 0.9400536726276151
+        },
+        "description": "None P011"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:32.281987",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P009",
+        "details": {
+          "timestamp": "2025-02-27T22:49:32.281987",
+          "rank": 2,
+          "previously_viewed": true,
+          "score": 0.7583136258574671
+        },
+        "description": "None P009"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:32.284988",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P029",
+        "details": {
+          "timestamp": "2025-02-27T22:49:32.284988",
+          "rank": 3,
+          "previously_viewed": false,
+          "score": 0.62067802518634
+        },
+        "description": "None P029"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:32.288492",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P020",
+        "details": {
+          "timestamp": "2025-02-27T22:49:32.288492",
+          "rank": 4,
+          "previously_viewed": true,
+          "score": 0.7775881057909304
+        },
+        "description": "None P020"
+      },
+      {
+        "timestamp": "2025-02-27T22:49:32.292004",
+        "event_type": "RECOMMENDED",
+        "action": null,
+        "target_type": "Product",
+        "target_id": "P023",
+        "details": {
+          "timestamp": "2025-02-27T22:49:32.292004",
+          "rank": 5,
+          "previously_viewed": false,
+          "score": 0.7380465553920823
+        },
+        "description": "None P023"
+      }
+    ],
+    "funnel_status": {
+      "current_stage": "Advocacy",
+      "completed_stages": [
+        "Consideration",
+        "Intent",
+        "Conversion",
+        "Advocacy"
+      ],
+      "all_stages": [
+        "Awareness",
+        "Consideration",
+        "Intent",
+        "Conversion",
+        "Retention",
+        "Advocacy"
+      ],
+      "has_churned": false
+    }
+  },
+  "insights": {
+    "similar_customers": [
+      {
+        "customer_id": "C034",
+        "name": null,
+        "similarity_score": 1.2
+      },
+      {
+        "customer_id": "C007",
+        "name": null,
+        "similarity_score": 1.1
+      },
+      {
+        "customer_id": "C002",
+        "name": null,
+        "similarity_score": 0.9
+      },
+      {
+        "customer_id": "C036",
+        "name": null,
+        "similarity_score": 0.7
+      },
+      {
+        "customer_id": "C042",
+        "name": null,
+        "similarity_score": 0.7
+      }
+    ],
+    "product_recommendations": [
+      {
+        "product_id": "P001",
+        "purchase_count": 5,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P030",
+        "purchase_count": 4,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P002",
+        "purchase_count": 4,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P005",
+        "purchase_count": 3,
+        "previously_viewed": false
+      },
+      {
+        "product_id": "P020",
+        "purchase_count": 3,
+        "previously_viewed": false
+      }
+    ],
+    "churn_risk": {
+      "overall_risk": "Low",
+      "factors": {
+        "inactivity": {
+          "level": "Very Low",
+          "days_inactive": 0
+        },
+        "purchase_history": {
+          "level": "Very Low",
+          "purchase_count": 5
+        },
+        "cart_abandonment": {
+          "level": "Medium",
+          "has_abandoned": true
+        },
+        "engagement": {
+          "level": "High",
+          "email_interactions": 0
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "action_type": "Referral Program",
+      "priority": "Low",
+      "description": "Invite to refer friends",
+      "details": "Customer is an advocate. Invite them to participate in your referral program with rewards for successful referrals"
+    }
+  ]
+}

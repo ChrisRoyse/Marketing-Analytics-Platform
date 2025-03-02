@@ -1,0 +1,512 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "first_name": "Laura",
+      "last_name": "Fischer",
+      "email": "olivia.allen@example.com"
+    },
+    {
+      "customer_id": "CUST002",
+      "first_name": "Charles",
+      "last_name": "Becker",
+      "email": "daniel.taylor@example.com"
+    },
+    {
+      "customer_id": "CUST003",
+      "first_name": "Yang",
+      "last_name": "Robinson",
+      "email": "william.collins@example.com"
+    },
+    {
+      "customer_id": "CUST004",
+      "first_name": "Nicole",
+      "last_name": "Young",
+      "email": "amanda.williams@example.com"
+    },
+    {
+      "customer_id": "CUST005",
+      "first_name": "Ming",
+      "last_name": "Hernandez",
+      "email": "lucas.martinez@example.com"
+    },
+    {
+      "customer_id": "CUST006",
+      "first_name": "Karen",
+      "last_name": "Schmidt",
+      "email": "maria.adams@example.com"
+    },
+    {
+      "customer_id": "CUST007",
+      "first_name": "Thomas",
+      "last_name": "Allen",
+      "email": "sophia.robinson@example.com"
+    },
+    {
+      "customer_id": "CUST008",
+      "first_name": "Wei",
+      "last_name": "Parker",
+      "email": "mia.thomas@example.com"
+    },
+    {
+      "customer_id": "CUST009",
+      "first_name": "David",
+      "last_name": "Liu",
+      "email": "donald.walker@example.com"
+    },
+    {
+      "customer_id": "CUST010",
+      "first_name": "Logan",
+      "last_name": "Weber",
+      "email": "matthew.li@example.com"
+    },
+    {
+      "customer_id": "CUST011",
+      "first_name": "Joshua",
+      "last_name": "Williams",
+      "email": "anthony.jones@example.com"
+    },
+    {
+      "customer_id": "CUST012",
+      "first_name": "Sophia",
+      "last_name": "Baker",
+      "email": "william.king@example.com"
+    },
+    {
+      "customer_id": "CUST013",
+      "first_name": "Kimberly",
+      "last_name": "Hernandez",
+      "email": "yi.harris@example.com"
+    },
+    {
+      "customer_id": "CUST014",
+      "first_name": "Harper",
+      "last_name": "Chen",
+      "email": "evelyn.li@example.com"
+    },
+    {
+      "customer_id": "CUST015",
+      "first_name": "Deborah",
+      "last_name": "Phillips",
+      "email": "robert.meyer@example.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "PRD001",
+      "name": "Premium Laptop",
+      "category": "Computers",
+      "price": 1299.99
+    },
+    {
+      "id": "PRD002",
+      "name": "Wireless Earbuds",
+      "category": "Audio",
+      "price": 129.99
+    },
+    {
+      "id": "PRD003",
+      "name": "Smartphone",
+      "category": "Mobile",
+      "price": 899.99
+    },
+    {
+      "id": "PRD004",
+      "name": "Smart Watch",
+      "category": "Wearables",
+      "price": 249.99
+    },
+    {
+      "id": "PRD005",
+      "name": "4K Monitor",
+      "category": "Displays",
+      "price": 349.99
+    },
+    {
+      "id": "PRD006",
+      "name": "Wireless Keyboard",
+      "category": "Accessories",
+      "price": 79.99
+    },
+    {
+      "id": "PRD007",
+      "name": "Wireless Mouse",
+      "category": "Accessories",
+      "price": 49.99
+    },
+    {
+      "id": "PRD008",
+      "name": "External SSD",
+      "category": "Storage",
+      "price": 159.99
+    },
+    {
+      "id": "PRD009",
+      "name": "Bluetooth Speaker",
+      "category": "Audio",
+      "price": 199.99
+    },
+    {
+      "id": "PRD010",
+      "name": "Tablet",
+      "category": "Computers",
+      "price": 499.99
+    },
+    {
+      "id": "PRD011",
+      "name": "Noise-Cancelling Headphones",
+      "category": "Audio",
+      "price": 299.99
+    },
+    {
+      "id": "PRD012",
+      "name": "Webcam",
+      "category": "Accessories",
+      "price": 89.99
+    },
+    {
+      "id": "PRD013",
+      "name": "Gaming Mouse",
+      "category": "Gaming",
+      "price": 69.99
+    },
+    {
+      "id": "PRD014",
+      "name": "Mechanical Keyboard",
+      "category": "Gaming",
+      "price": 149.99
+    },
+    {
+      "id": "PRD015",
+      "name": "WiFi Router",
+      "category": "Networking",
+      "price": 179.99
+    }
+  ],
+  "advertisements": [
+    {
+      "id": "AD001",
+      "name": "Summer Sale",
+      "channel": "facebook",
+      "campaign": "seasonal_promotions"
+    },
+    {
+      "id": "AD002",
+      "name": "Back to School",
+      "channel": "instagram",
+      "campaign": "seasonal_promotions"
+    },
+    {
+      "id": "AD003",
+      "name": "Tech Deals",
+      "channel": "google_search",
+      "campaign": "always_on"
+    },
+    {
+      "id": "AD004",
+      "name": "New Arrivals",
+      "channel": "email",
+      "campaign": "product_launches"
+    },
+    {
+      "id": "AD005",
+      "name": "Holiday Gifts",
+      "channel": "facebook",
+      "campaign": "seasonal_promotions"
+    },
+    {
+      "id": "AD006",
+      "name": "Upgrade Your Setup",
+      "channel": "google_search",
+      "campaign": "always_on"
+    }
+  ],
+  "emails": [
+    {
+      "id": "EM001",
+      "subject": "Welcome to TechGear",
+      "type": "welcome"
+    },
+    {
+      "id": "EM002",
+      "subject": "Your cart is waiting",
+      "type": "abandoned_cart"
+    },
+    {
+      "id": "EM003",
+      "subject": "Exclusive deals just for you",
+      "type": "promotional"
+    },
+    {
+      "id": "EM004",
+      "subject": "Thank you for your purchase",
+      "type": "transactional"
+    },
+    {
+      "id": "EM005",
+      "subject": "New products you might like",
+      "type": "recommendation"
+    },
+    {
+      "id": "EM006",
+      "subject": "Rate your recent purchase",
+      "type": "feedback"
+    }
+  ],
+  "pages": [
+    {
+      "id": "PG001",
+      "url": "/",
+      "name": "Home"
+    },
+    {
+      "id": "PG002",
+      "url": "/products",
+      "name": "Products"
+    },
+    {
+      "id": "PG003",
+      "url": "/category/computers",
+      "name": "Computers Category"
+    },
+    {
+      "id": "PG004",
+      "url": "/category/audio",
+      "name": "Audio Category"
+    },
+    {
+      "id": "PG005",
+      "url": "/category/accessories",
+      "name": "Accessories Category"
+    },
+    {
+      "id": "PG006",
+      "url": "/cart",
+      "name": "Shopping Cart"
+    },
+    {
+      "id": "PG007",
+      "url": "/checkout",
+      "name": "Checkout"
+    },
+    {
+      "id": "PG008",
+      "url": "/account",
+      "name": "My Account"
+    },
+    {
+      "id": "PG009",
+      "url": "/support",
+      "name": "Customer Support"
+    },
+    {
+      "id": "PG010",
+      "url": "/blog",
+      "name": "Blog"
+    }
+  ],
+  "locations": [
+    {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "postal_code": "10001"
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "postal_code": "94105"
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "postal_code": "78701"
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "postal_code": "98101"
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "postal_code": "60601"
+    },
+    {
+      "city": "London",
+      "city_code": "LD",
+      "country": "UK",
+      "postal_code": "EC1A 1BB"
+    },
+    {
+      "city": "Toronto",
+      "province": "ON",
+      "country": "Canada",
+      "postal_code": "M5V 2A8"
+    },
+    {
+      "city": "Sydney",
+      "state": "NSW",
+      "country": "Australia",
+      "postal_code": "2000"
+    }
+  ],
+  "devices": [
+    {
+      "id": "desktop_chrome"
+    },
+    {
+      "id": "desktop_firefox"
+    },
+    {
+      "id": "desktop_safari"
+    },
+    {
+      "id": "mobile_chrome"
+    },
+    {
+      "id": "mobile_safari"
+    },
+    {
+      "id": "tablet_chrome"
+    }
+  ],
+  "channels": [
+    {
+      "id": "facebook"
+    },
+    {
+      "id": "instagram"
+    },
+    {
+      "id": "google_search"
+    },
+    {
+      "id": "email"
+    },
+    {
+      "id": "direct"
+    },
+    {
+      "id": "referral"
+    }
+  ],
+  "funnel_stages": [
+    {
+      "id": "awareness"
+    },
+    {
+      "id": "consideration"
+    },
+    {
+      "id": "intent"
+    },
+    {
+      "id": "conversion"
+    },
+    {
+      "id": "retention"
+    },
+    {
+      "id": "advocacy"
+    }
+  ],
+  "persona_groups": [
+    {
+      "id": "Tech Enthusiast"
+    },
+    {
+      "id": "Budget Shopper"
+    },
+    {
+      "id": "Gift Buyer"
+    },
+    {
+      "id": "Professional"
+    },
+    {
+      "id": "Student"
+    }
+  ],
+  "personas": [
+    {
+      "id": "early_adopter",
+      "name": "Early Adopter",
+      "group": "Tech Enthusiast"
+    },
+    {
+      "id": "feature_hunter",
+      "name": "Feature Hunter",
+      "group": "Tech Enthusiast"
+    },
+    {
+      "id": "upgrade_cycler",
+      "name": "Upgrade Cycler",
+      "group": "Tech Enthusiast"
+    },
+    {
+      "id": "deal_seeker",
+      "name": "Deal Seeker",
+      "group": "Budget Shopper"
+    },
+    {
+      "id": "comparison_shopper",
+      "name": "Comparison Shopper",
+      "group": "Budget Shopper"
+    },
+    {
+      "id": "bargain_hunter",
+      "name": "Bargain Hunter",
+      "group": "Budget Shopper"
+    },
+    {
+      "id": "seasonal_gifter",
+      "name": "Seasonal Gifter",
+      "group": "Gift Buyer"
+    },
+    {
+      "id": "special_occasion_buyer",
+      "name": "Special Occasion Buyer",
+      "group": "Gift Buyer"
+    },
+    {
+      "id": "corporate_gifter",
+      "name": "Corporate Gifter",
+      "group": "Gift Buyer"
+    },
+    {
+      "id": "business_user",
+      "name": "Business User",
+      "group": "Professional"
+    },
+    {
+      "id": "remote_worker",
+      "name": "Remote Worker",
+      "group": "Professional"
+    },
+    {
+      "id": "executive_buyer",
+      "name": "Executive Buyer",
+      "group": "Professional"
+    },
+    {
+      "id": "budget_student",
+      "name": "Budget Student",
+      "group": "Student"
+    },
+    {
+      "id": "tech_student",
+      "name": "Tech Student",
+      "group": "Student"
+    },
+    {
+      "id": "international_student",
+      "name": "International Student",
+      "group": "Student"
+    }
+  ]
+}

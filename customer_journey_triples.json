@@ -1,0 +1,389 @@
+{
+  "triples": [
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST016",
+          "name": "Rachel Green",
+          "email": "rachel.g@email.com"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-11T12:00:00",
+          "action": "diy_tutorial_view"
+        }
+      },
+      "object": {
+        "id": "DIY001",
+        "type": "Content",
+        "properties": {
+          "name": "Home Renovation Basics",
+          "type": "Tutorial"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST016",
+          "name": "Rachel Green",
+          "email": "rachel.g@email.com"
+        }
+      },
+      "relationship": {
+        "type": "PURCHASES",
+        "properties": {
+          "timestamp": "2024-10-11T13:00:00",
+          "action": "purchased",
+          "amount": 499.99
+        }
+      },
+      "object": {
+        "id": "TOOL001",
+        "type": "Product",
+        "properties": {
+          "name": "Power Tool Set",
+          "category": "Home Improvement"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST016",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST016",
+          "name": "Rachel Green",
+          "email": "rachel.g@email.com"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2024-10-11T12:00:00"
+        }
+      },
+      "object": {
+        "id": "DIY-Enthusiast",
+        "type": "Segment",
+        "properties": {
+          "description": "Home improvement enthusiasts"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST017",
+          "name": "Marco Rossi",
+          "email": "marco.r@email.com"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-10T15:00:00",
+          "action": "recipe_view"
+        }
+      },
+      "object": {
+        "id": "RECIPE001",
+        "type": "Content",
+        "properties": {
+          "name": "Gourmet Cooking Course",
+          "type": "Video Series"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST017",
+          "name": "Marco Rossi",
+          "email": "marco.r@email.com"
+        }
+      },
+      "relationship": {
+        "type": "PURCHASES",
+        "properties": {
+          "timestamp": "2024-10-10T16:00:00",
+          "action": "purchased",
+          "amount": 129.99
+        }
+      },
+      "object": {
+        "id": "KITCHEN001",
+        "type": "Product",
+        "properties": {
+          "name": "Professional Knife Set",
+          "category": "Kitchen"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST017",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST017",
+          "name": "Marco Rossi",
+          "email": "marco.r@email.com"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2024-10-10T15:00:00"
+        }
+      },
+      "object": {
+        "id": "Cooking-Enthusiast",
+        "type": "Segment",
+        "properties": {
+          "description": "Cooking and culinary enthusiasts"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST018",
+          "name": "Nina Patel",
+          "email": "nina.p@email.com"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-09T10:00:00",
+          "action": "photography_workshop"
+        }
+      },
+      "object": {
+        "id": "PHOTO001",
+        "type": "Content",
+        "properties": {
+          "name": "Advanced Photography",
+          "type": "Workshop"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST018",
+          "name": "Nina Patel",
+          "email": "nina.p@email.com"
+        }
+      },
+      "relationship": {
+        "type": "PURCHASES",
+        "properties": {
+          "timestamp": "2024-10-09T11:00:00",
+          "action": "purchased",
+          "amount": 1299.99
+        }
+      },
+      "object": {
+        "id": "CAM001",
+        "type": "Product",
+        "properties": {
+          "name": "Professional Camera",
+          "category": "Photography"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST018",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST018",
+          "name": "Nina Patel",
+          "email": "nina.p@email.com"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2024-10-09T10:00:00"
+        }
+      },
+      "object": {
+        "id": "Photography-Pro",
+        "type": "Segment",
+        "properties": {
+          "description": "Professional photographers"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST019",
+          "name": "Lucas Santos",
+          "email": "lucas.s@email.com"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-08T14:00:00",
+          "action": "travel_guide_view"
+        }
+      },
+      "object": {
+        "id": "TRAVEL001",
+        "type": "Content",
+        "properties": {
+          "name": "World Travel Guide",
+          "type": "Digital Guide"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST019",
+          "name": "Lucas Santos",
+          "email": "lucas.s@email.com"
+        }
+      },
+      "relationship": {
+        "type": "PURCHASES",
+        "properties": {
+          "timestamp": "2024-10-08T15:00:00",
+          "action": "purchased",
+          "amount": 799.99
+        }
+      },
+      "object": {
+        "id": "LUGGAGE001",
+        "type": "Product",
+        "properties": {
+          "name": "Premium Luggage Set",
+          "category": "Travel"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST019",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST019",
+          "name": "Lucas Santos",
+          "email": "lucas.s@email.com"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2024-10-08T14:00:00"
+        }
+      },
+      "object": {
+        "id": "Travel-Enthusiast",
+        "type": "Segment",
+        "properties": {
+          "description": "Frequent travelers"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST020",
+          "name": "Olivia Brown",
+          "email": "olivia.b@email.com"
+        }
+      },
+      "relationship": {
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "timestamp": "2024-10-07T17:00:00",
+          "action": "pet_care_guide"
+        }
+      },
+      "object": {
+        "id": "PET001",
+        "type": "Content",
+        "properties": {
+          "name": "Pet Care Essentials",
+          "type": "Guide"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST020",
+          "name": "Olivia Brown",
+          "email": "olivia.b@email.com"
+        }
+      },
+      "relationship": {
+        "type": "PURCHASES",
+        "properties": {
+          "timestamp": "2024-10-07T18:00:00",
+          "action": "purchased",
+          "amount": 149.99
+        }
+      },
+      "object": {
+        "id": "PETCARE001",
+        "type": "Product",
+        "properties": {
+          "name": "Premium Pet Care Kit",
+          "category": "Pet Supplies"
+        }
+      }
+    },
+    {
+      "subject": {
+        "id": "CUST020",
+        "type": "Customer",
+        "properties": {
+          "customer_id": "CUST020",
+          "name": "Olivia Brown",
+          "email": "olivia.b@email.com"
+        }
+      },
+      "relationship": {
+        "type": "BELONGS_TO",
+        "properties": {
+          "timestamp": "2024-10-07T17:00:00"
+        }
+      },
+      "object": {
+        "id": "Pet-Owner",
+        "type": "Segment",
+        "properties": {
+          "description": "Pet owners and animal lovers"
+        }
+      }
+    }
+  ]
+}

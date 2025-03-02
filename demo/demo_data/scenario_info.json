@@ -1,0 +1,101 @@
+{
+  "scenario_name": "diverse_metrics",
+  "generated_at": "2025-03-02T15:20:48.190305",
+  "date_range": {
+    "start": "2024-03-02T00:00:00",
+    "end": "2025-03-02T23:59:59"
+  },
+  "customer_count": 15,
+  "event_count": 1231,
+  "configuration": {
+    "output_dir": "/home/cabdru/marketing/demo/demo_data",
+    "scenario_name": "diverse_metrics",
+    "start_date": "2024-03-02T00:00:00",
+    "end_date": "2025-03-02T23:59:59",
+    "purchase_frequency_multiplier": 1.0,
+    "price_sensitivity_multiplier": 1.0,
+    "purchase_interval_min": 30,
+    "purchase_interval_variance": 60,
+    "persona_groups": {
+      "Tech Enthusiast": {
+        "profiles": [
+          "Early Adopter",
+          "Feature Hunter",
+          "Upgrade Cycler"
+        ],
+        "avg_purchase_interval_days": 75,
+        "price_sensitivity": "low",
+        "research_depth": "high",
+        "churn_rate": 0.1
+      },
+      "Budget Shopper": {
+        "profiles": [
+          "Deal Seeker",
+          "Comparison Shopper",
+          "Bargain Hunter"
+        ],
+        "avg_purchase_interval_days": 120,
+        "price_sensitivity": "high",
+        "research_depth": "medium",
+        "churn_rate": 0.3
+      },
+      "Gift Buyer": {
+        "profiles": [
+          "Seasonal Gifter",
+          "Special Occasion Buyer",
+          "Corporate Gifter"
+        ],
+        "avg_purchase_interval_days": 180,
+        "price_sensitivity": "medium",
+        "research_depth": "low",
+        "churn_rate": 0.5
+      },
+      "Professional": {
+        "profiles": [
+          "Business User",
+          "Remote Worker",
+          "Executive Buyer"
+        ],
+        "avg_purchase_interval_days": 90,
+        "price_sensitivity": "low",
+        "research_depth": "high",
+        "churn_rate": 0.2
+      },
+      "Student": {
+        "profiles": [
+          "Budget Student",
+          "Tech Student",
+          "International Student"
+        ],
+        "avg_purchase_interval_days": 150,
+        "price_sensitivity": "high",
+        "research_depth": "medium",
+        "churn_rate": 0.4
+      }
+    },
+    "channels": [
+      "facebook",
+      "instagram",
+      "google_search",
+      "email",
+      "direct",
+      "referral"
+    ],
+    "funnel_stages": [
+      "awareness",
+      "consideration",
+      "intent",
+      "conversion",
+      "retention",
+      "advocacy"
+    ],
+    "devices": [
+      "desktop_chrome",
+      "desktop_firefox",
+      "desktop_safari",
+      "mobile_chrome",
+      "mobile_safari",
+      "tablet_chrome"
+    ]
+  }
+}
