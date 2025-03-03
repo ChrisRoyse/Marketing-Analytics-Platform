@@ -6,6 +6,10 @@
 
 Behavior Graph is a comprehensive, open-source marketing analytics and personalization platform that leverages graph-based behavioral ontologies to provide deep customer insights. By modeling customer behavior as a rich, interconnected graph in Neo4j, this platform delivers capabilities previously only available in high-cost enterprise solutions from providers like Adobe, Google, and Salesforce.
 
+**Watch the Demo Video:**
+
+[![Behavior Graph Demo](https://img.youtube.com/vi/9jjNrh61NUM/0.jpg)](https://www.youtube.com/watch?v=9jjNrh61NUM)
+
 ### Key Differentiators
 
 - **Graph Database Core**: While traditional marketing platforms use relational databases, Behavior Graph uses Neo4j's graph structure to model complex customer journeys and relationships
@@ -714,5 +718,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <b>Unlock the power of graph-based behavioral analytics for your marketing stack.</b><br>
   <a href="https://github.com/ChrisRoyse/behavior-graph">GitHub</a> •
   <a href="thenumberonellc.com">My Website</a> •
-  <a href="(https://www.linkedin.com/in/christopher-royse-b624b596/)">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/christopher-royse-b624b596/">LinkedIn</a> •
 </p>
