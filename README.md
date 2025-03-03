@@ -712,7 +712,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="center">
   <b>Unlock the power of graph-based behavioral analytics for your marketing stack.</b><br>
-  <a href="https://github.com/yourusername/behavior-graph">GitHub</a> •
-  <a href="https://your-documentation-site.com">Documentation</a> •
-  <a href="https://your-community-forum.com">Community</a>
+  <a href="https://github.com/ChrisRoyse/behavior-graph">GitHub</a> •
+  <a href="thenumberonellc.com">My Website</a> •
+  <a href="(https://www.linkedin.com/in/christopher-royse-b624b596/)">LinkedIn</a>
 </p>
